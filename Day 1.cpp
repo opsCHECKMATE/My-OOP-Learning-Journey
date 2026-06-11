@@ -2,15 +2,16 @@
 using namespace std;
 
 /*
-note: the code will be update step by step as l learn new concepts
-      aiming to become more powerful and professional over time
+    Note: This code will be continuously improved step by step as I learn new concepts
+    with the goal of becoming more skilled and professional over time
 */
 
 //    class definition
 class chess {
 
 private:
-    /* private member
+    /* 
+       private member
        can only be accessed inside the class
        used for data hiding (encapsulation) 
     */
@@ -70,7 +71,8 @@ void done() {
     /* using setter to store condition result */
     rook.set(king.move == 0);
 
-    /* ternary operator:
+    /* 
+       ternary operator:
        prints YES if both conditions are true,
        otherwise NO 
     */
